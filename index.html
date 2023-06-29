@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF">
+    <name="viewport" content="width=device-width, initial-scale=1.0"></name>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <link rel="shortcut icon" href="./imagens/favicon.ico">
+    
+    <title>Iniciar sessão</title>
+</head>
+<body>
+        <main>
+            <section class="login">
+                
+                <div class="wrapper"> 
+                    <img src="./imagens/logo.png" class="login_logo">
+                    
+                    <h1 class="login_title">Iniciar sessão</h1>
+
+                   <label class="login_label">
+                        <span class="span-active">nome de usuário</span>
+                        <input type="text" name="username" class="input">
+                    </label>
+
+                    <label class="login_label">
+                        <span>senha</span>
+                        <input type="password" name="password" class="input">
+                    </label>
+
+                    <div class="login_icons">
+                        <button type="button" class="icons_button">
+                            <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=344190606773871&kid_directed_site=0&app_id=344190606773871&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv13.0%2Fdialog%2Foauth%3Fclient_id%3D344190606773871%26redirect_uri%3Dhttps%253A%252F%252Fauthenticate.riotgames.com%252Fredirects%252Ffacebook%26state%3D6f4c43ebfac70d3235603c5e717ffb20c5a11221867dc3f4b068575632d6%26scope%3Demail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D55364ad7-564b-43ed-ac59-e3115f38edfe%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fauthenticate.riotgames.com%2Fredirects%2Ffacebook%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D6f4c43ebfac70d3235603c5e717ffb20c5a11221867dc3f4b068575632d6%23_%3D_&display=page&locale=pt_BR&pl_dbl=0"  target="_blank">
+                                <img src="./imagens/facebook-icon.png" alt="facebook">
+                            </a>
+                        </button>
+
+                        <button type="button" class="icons_button">
+                            <a href="https://accounts.google.com/login?hl=pt_BR"  target="_blank">
+                                <img src="./imagens/google-icon.png" alt="google">
+                            </a>
+                          </button>
+
+                        <button type="button" class="icons_button">
+                            <a href="https://appleid.apple.com/auth/authorize?response_type=code%20id_token&response_mode=form_post&client_id=com.riotgames.authenticator.prod.client&redirect_uri=https%3A%2F%2Fauthenticate.riotgames.com%2Fredirects%2Fapple&scope=name%20email&nonce=3bb96bdacc0a9f1b8d5ea206106d9f69074085781dbb78a316f497b4c2b1&state=b7c5d8f85b47a02d96709cd4aabdf26c233efbbf89ef03c3b7f111b264ba"  target="_blank">
+                                <img src="./imagens/apple-icon.png" alt="apple">
+                            </a>
+                        </button>
+
+                        <button type="button" class="icons_button">
+                            <a href="https://login.live.com/oauth20_authorize.srf?client_id=a2e930dd-746b-4a29-aa3e-23c2c1cdd78d&scope=openid+email+xboxlive.signin+xboxlive.offline_access&redirect_uri=https%3a%2f%2fauthenticate.riotgames.com%2fredirects%2fxbox&response_type=code&state=8b806316bd105fd5654f6ab041e2d272e3622300fb973800946235327bae&prompt=select_account&uaid=af2899923a074592a06b40a9c7606de0&msproxy=1&issuer=mso&tenant=consumers&ui_locales=pt-BR&epct=PAQABAAEAAAD--DLA3VO7QrddgJg7Wevr1vB27-2vinYE6ELn1iozE574xLOVgUfOWjgyWrym7Qtl1NOS78bF77dk-V1XxBySGnC9z0UtRXK-RlOjPTMqTBWgEoZ3vQWrC2Pq_93O_TuphGhEBr4ona_yIijp1fDmv4aLTD4KLTmbRtFIk0GC1AGLGtIInPS7QrmjbKn9XzEO04FYBazVK5MySw-jfWz4JixujTk1R8KTXqLDl7wz6CAA&jshs=0#"  target="_blank">
+                                <img src="./imagens/xbox-icon.png" alt="xbox">
+                            </a>
+                        </button>
+                    </div>
+                        
+                  <label class="login_label--checkbox">
+                            <input type="checkbox" class="input--checkbox">
+                             Manter Login
+                        </label>
+                    </div>
+
+                  <div class="wrapper">
+                        <button type="button" class="login_button" disabled>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/>
+                              </svg>
+                        </button>
+
+                        <a href="#" class="login_link">não consegue iniciar sessão?</a>
+                        <a href="#" class="login_link">criar conta</a>
+                    </div> 
+                    
+                    <div class=""
+            </section>
+
+            <section class="wallpaper"></section>
+        </main>
+</body>
+</html>
