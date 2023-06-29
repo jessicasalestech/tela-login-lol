@@ -5,5 +5,11 @@
 </p>
 
 # Resumo do projeto 
-Projeto em andamento desenvolvido em com HTML, CSS e um pouco de Javascript, o objetivo do projeto é treinar o desenvolvimento e a proposta é criar uma tela de login simples, com animação em Javascript no input de login e senha, direcionamento dos ícones das redes sociais e o botão de realizar login habilitar e desabilitar conforme a quantidade de caracteres inseridos, além de treinar centralização de div e checkbox.
+Projeto em andamento com o objetivo de é treinar o desenvolvimento front end a proposta é criar uma tela de login simples, com um pouco de  Javascript aplicando animações no input de login e senha, direcionamento dos ícones das redes sociais e o botão de realizar login habilitar e desabilitar conforme a quantidade de caracteres inseridos, além de treinar centralização de div e checkbox.
 
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``Javascript``
+-  ``HTML``
+-  ``CSS``
+- ``VS Code``
